@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width" initial-scale="1.0">
+<head>
+    <title>Onyx</title>
+    <style>
+        body {
+            background-color: aqua;
+            background-position: center;
+            background-size: cover;
+            font-size: large;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0%;
+            padding: 0px;
+            color: black;
+            min-height: 100vh;
+            position: relative; 
+        }
+
+        header {
+            background-color: antiquewhite;
+            font-size: xx-large;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0%;
+            padding: 0px;
+            text-align: center;
+            align-items: center;
+            animation: infinite;
+        }
+
+        footer {
+            background-color: antiquewhite;
+            font-size: small;
+            font-family: 'Courier New', Courier, monospace;
+            position: absolute; 
+            bottom: 0; 
+            left: 0; 
+            width: 100%; 
+            padding: 10px; 
+            box-sizing: border-box; 
+            text-align: center;
+        }
+
+        .button {
+            background-color: rgb(115, 26, 138);
+            border: none;
+            height: auto;
+            color: aliceblue;
+            position: relative;
+            align-items: center;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            border-radius: 15px;
+        }
+
+        .button:hover {
+            background-color: aliceblue;
+            color: black;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .input-field {
+            width: 300px;
+            padding: 10px;
+            margin: 10px 0px;
+            text-align: center;
+            position: relative;
+            left: 510px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<header>
+    FORTUNE'S WEBPAGE
+</header>
+<body>
+    <form>
+        <input class="input-field" type="text" placeholder="Email">
+        <input class="input-field" type="text" placeholder="Username">
+        <input class="input-field" type="password" placeholder="Password">
+        <div class="button-container">
+            <button class="button" type="button" onclick="location.href='https://www.google.com'">More info</button>
+            <button class="button" type="button" onclick="location.href='https://instagram.com'">Log In</button>
+            <button class="button" type="button" onclick="location.href='https://chatgpt.com'">Chat</button>
+        </div>
+    </form>
+</body>
+<footer>
+    &copy; Onyx
+</footer>
+</html>
